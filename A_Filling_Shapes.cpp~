@@ -1,0 +1,35 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define int long long
+#define inf LLONG_MAX
+#define vi vector<int>
+#define pb push_back
+#define eb emplace_back
+#define readv(a) for (auto &i : a) cin >> i;
+#define test int tc; cin >> tc; while (tc--)
+
+// Problem Statement
+/*
+
+*/
+
+// Observations + Proofs
+/*
+  dp[i] = number of ways to fill the i*3
+  dp[i] = dp[i-2] + 2
+*/
+
+int32_t main() {
+  ios_base::sync_with_stdio(false), cin.tie(nullptr);
+  int n; cin >> n;
+  if (n&1) {
+    cout << 0 << "\n";
+    return 0;
+  }
+  int dp[n+5] = {0};
+  for (int i = 2; i <= n; i++) {
+    dp[i] = dp[i-2] + 2;
+  }
+
+  cout << dp[n] << "\n";
+}
