@@ -11,7 +11,7 @@ then no matter what path im going to choose to go from S to A, there always y wa
 but in rule of sum it won't followed so it's dependent
 because
 
-S -> A    A -> D
+S -> A           A -> D
            
-S -> B    B -> D
+S -> B           B -> D
 
