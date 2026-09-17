@@ -1,0 +1,7 @@
+P1: if we are given 100kg potatoes in which 99% is water.. and if we dry them such that 98% water is left, now after some water evaporate how much weight of potatoes is left
+
+this well known mathematical puzzle is called potato paradox
+
+P2: if a set is containing all those sets which doesn't contain themselves then does the set contains itself
+
+this is russell's paradox
